@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Spy Game
+About the Game:
+"Spy Game" is a group-based PC game where players engage in a strategic interrogation-style gameplay. One player is secretly designated as the "Spy," while the others know a shared secret topic or location. Through clever questioning and observation, participants must uncover the Spy based on their responses, while the Spy attempts to blend in and deduce the secret.
+Number of Players:
+Minimum of four players.
+Requirements:
+A PC with the game installed.
+Game Duration:
+Flexible, depending on the players' preferences.
+________________________________________
+How the Game Works:
+"Spy Game" is a deduction-based game where one player, the Spy, is unaware of the secret topic or location known to the rest. The gameplay focuses on two objectives:
+1.	Non-Spy players aim to identify the Spy through strategic questioning and observation.
+2.	The Spy attempts to figure out the secret topic or location without exposing their identity.
+________________________________________
+Rules of the Game:
+1.	A minimum of four players is required: at least three non-Spy players and one Spy.
+2.	Players must not reveal their roles until the round ends.
+3.	Each player takes turns asking a question about the topic or location, ensuring their responses align with their knowledge.
+4.	At the end of the round, players vote on who they believe is the Spy, while the Spy guesses the secret topic or location.
+5.	Points are scored as follows:
+•	The Spy earns a point for correctly guessing the secret or avoiding detection.
+•	Non-Spy players earn points for identifying the Spy.
+
+
+
+________________________________________
+How to Play:
+1.	Set-Up:
+•	One player inputs all participants’ names into the game system or assigns them manually.
+•	Press "Start" to begin.
+2.	Role Assignment:
+•	The game selects one player as the Spy, while the others are shown the secret topic or location (e.g., "Beach").
+3.	Gameplay:
+•	Players take turns asking questions to one another about the secret.
+•	The Spy listens closely, trying to figure out the secret while avoiding suspicion.
+•	Non-Spy players focus on subtle inconsistencies to identify the Spy.
+4.	Round End:
+•	Players vote on who they think is the Spy.
+•	The Spy attempts to guess the secret topic or location.
+•	Points are awarded based on the round's outcome.
+5.	Scoring:
+•	Correct guesses about the Spy earn points for the non-Spy players.
+•	The Spy earns points for successful deception or correctly guessing the topic or location.
+6.	Winning:
+•	The player with the highest total points after multiple rounds wins the game.
+________________________________________
+Tips for Success:
+•	For Non-Spy Players: Pay close attention to vague or hesitant answers and probe further with strategic questions.
+•	For the Spy: Stay calm and confident, use context clues to deduce the topic, and avoid providing inconsistent answers.
+"Spy Game" is an exciting and engaging activity, perfect for gatherings or casual gaming sessions, promoting strategy, observation, and quick thinking!
+</value>
+  </data>
+</root>
