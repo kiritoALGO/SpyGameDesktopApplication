@@ -14,6 +14,7 @@ namespace SpyGamev1._0Csharp
         public AddPlayersForm()
         {
             InitializeComponent();
+            chooseImgBtn.Visible = false;
 
         }
 
@@ -41,7 +42,7 @@ namespace SpyGamev1._0Csharp
             {
                 Name = newPlayerTxtBox.Text,
                 Score = 0,
-                Avatar = chooseImgBtn.BackgroundImage
+                Avatar = (chooseImgBtn.Visible ? chooseImgBtn.BackgroundImage : chooseImgBtn2.BackgroundImage),
             };
             //MessageBox.Show("Player Added Successfully");
             GameData.AddPlayer(newPlayer);
@@ -106,6 +107,18 @@ namespace SpyGamev1._0Csharp
             KnowYourStateForm nwForm = new KnowYourStateForm();
             this.Hide();
             nwForm.ShowDialog();
+        }
+
+        private void chooseImgBtn2_Click(object sender, EventArgs e)
+        {
+            chooseImgBtn2.Visible = false;
+            chooseImgBtn.Visible = true;
+        }
+
+        private void chooseImgBtn_Click(object sender, EventArgs e)
+        {
+            chooseImgBtn2.Visible = true;
+            chooseImgBtn.Visible = false;
         }
     }
 }

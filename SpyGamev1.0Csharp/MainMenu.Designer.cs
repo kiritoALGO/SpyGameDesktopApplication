@@ -124,6 +124,7 @@
             this.developersBtn.Text = "Developers";
             this.developersBtn.TextColor = System.Drawing.Color.White;
             this.developersBtn.UseVisualStyleBackColor = false;
+            this.developersBtn.Visible = false;
             // 
             // CompleteBtn
             // 

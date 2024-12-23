@@ -35,6 +35,7 @@
             this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.cardsPanel = new System.Windows.Forms.Panel();
             this.nextPqageBtn = new CustomControls.RJControls.RJButton();
+            this.chooseImgBtn2 = new CustomControls.RJControls.RJButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(237)))), ((int)(((byte)(247)))));
             this.panel1.Controls.Add(this.newPlayerTxtBox);
             this.panel1.Controls.Add(this.chooseImgBtn);
+            this.panel1.Controls.Add(this.chooseImgBtn2);
             this.panel1.Location = new System.Drawing.Point(92, 91);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
@@ -84,6 +86,7 @@
             this.chooseImgBtn.TextColor = System.Drawing.Color.White;
             this.chooseImgBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.chooseImgBtn.UseVisualStyleBackColor = false;
+            this.chooseImgBtn.Click += new System.EventHandler(this.chooseImgBtn_Click);
             // 
             // rjButton1
             // 
@@ -132,6 +135,28 @@
             this.nextPqageBtn.UseVisualStyleBackColor = false;
             this.nextPqageBtn.Click += new System.EventHandler(this.nextPqageBtn_Click);
             // 
+            // chooseImgBtn2
+            // 
+            this.chooseImgBtn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(237)))), ((int)(((byte)(247)))));
+            this.chooseImgBtn2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(237)))), ((int)(((byte)(247)))));
+            this.chooseImgBtn2.BackgroundImage = global::SpyGamev1._0Csharp.Properties.Resources.avatar2;
+            this.chooseImgBtn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.chooseImgBtn2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(237)))), ((int)(((byte)(247)))));
+            this.chooseImgBtn2.BorderRadius = 20;
+            this.chooseImgBtn2.BorderSize = 0;
+            this.chooseImgBtn2.FlatAppearance.BorderSize = 0;
+            this.chooseImgBtn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chooseImgBtn2.ForeColor = System.Drawing.Color.White;
+            this.chooseImgBtn2.Location = new System.Drawing.Point(909, 5);
+            this.chooseImgBtn2.Margin = new System.Windows.Forms.Padding(4);
+            this.chooseImgBtn2.Name = "chooseImgBtn2";
+            this.chooseImgBtn2.Size = new System.Drawing.Size(58, 58);
+            this.chooseImgBtn2.TabIndex = 2;
+            this.chooseImgBtn2.TextColor = System.Drawing.Color.White;
+            this.chooseImgBtn2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.chooseImgBtn2.UseVisualStyleBackColor = false;
+            this.chooseImgBtn2.Click += new System.EventHandler(this.chooseImgBtn2_Click);
+            // 
             // AddPlayersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -160,5 +185,6 @@
         private RJ_Controls.PlaceholderTextBox newPlayerTxtBox;
         private System.Windows.Forms.Panel cardsPanel;
         private CustomControls.RJControls.RJButton nextPqageBtn;
+        private CustomControls.RJControls.RJButton chooseImgBtn2;
     }
 }
